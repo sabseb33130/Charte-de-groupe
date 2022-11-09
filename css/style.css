@@ -5,7 +5,9 @@ body{
 header{
     background-color: #fefefe;
 }
-img{
-    background-image: url(bullet.png);
-    background-repeat: repeat-y;
+  
+    
+ul{
+    list-style-image: url("/images/bullet.png");
 }
+
