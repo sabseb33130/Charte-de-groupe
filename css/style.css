@@ -10,7 +10,9 @@ ul,h5{
     padding-left: 10px; ;
 }
 .favorite{
-    margin-left: 80%;
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
     background-color: #f60b26;
     color: #f2f2f2;
 }
@@ -25,8 +27,12 @@ summary{
     display: inline-flex;
     align-items: flex-end;
     margin-left: 10px;
-    background-color: #f2f2f2;
+    background-color: #fefefe;
 }
 p{
     margin-left: 10px;
+    
+}
+details{
+    background-color: #fefefe;
 }
