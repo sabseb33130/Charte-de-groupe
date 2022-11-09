@@ -10,4 +10,8 @@ header{
 ul{
     list-style-image: url("/images/bullet.png");
 }
-
+.favorite{
+    margin-left: 80%;
+    background-color: #f60b26;
+    color: #f2f2f2;
+}
