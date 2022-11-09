@@ -5,8 +5,6 @@ body{
 header{
     background-color: #fefefe;
 }
-  
-    
 ul{
     list-style-image: url("/images/bullet.png");
 }
@@ -14,4 +12,12 @@ ul{
     margin-left: 80%;
     background-color: #f60b26;
     color: #f2f2f2;
+}
+.menu{
+border: 2px solid black;
+border-radius: 5px;
+margin: 30px;
+box-shadow: lightgray 5px 5px 5px 5px;
+
+
 }
