@@ -5,8 +5,9 @@ body{
 header{
     background-color: #fefefe;
 }
-ul{
+ul,h5{
     list-style-image: url("/images/bullet.png");
+    padding-left: 10px; ;
 }
 .favorite{
     margin-left: 80%;
@@ -18,6 +19,5 @@ border: 2px solid black;
 border-radius: 5px;
 margin: 30px;
 box-shadow: lightgray 5px 5px 5px 5px;
-
 
 }
