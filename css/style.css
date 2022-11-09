@@ -1,0 +1,11 @@
+body{
+    background-color: #f2f2f2;
+
+}
+header{
+    background-color: #fefefe;
+}
+img{
+    background-image: url(bullet.png);
+    background-repeat: repeat-y;
+}
