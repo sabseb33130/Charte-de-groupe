@@ -1,9 +1,12 @@
 body{
     background-color: #f2f2f2;
-
 }
 header{
     background-color: #fefefe;
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
 }
 ul,h5{
     list-style-image: url("/images/bullet.png");
@@ -11,8 +14,7 @@ ul,h5{
 }
 .favorite{
     float: right;
-    margin-right: 50px;
-    margin-top: 20px;
+    margin-top: 70px;
     background-color: #f60b26;
     color: #f2f2f2;
 }
