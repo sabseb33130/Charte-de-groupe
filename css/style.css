@@ -50,6 +50,10 @@ ul{
 .column-1{
     display: flex;
 }
+.random{
+    display: flex;
+    justify-content: center;
+}
 @media all and (max-width: 550px){
 
     .tete {
@@ -59,7 +63,7 @@ ul{
     .button{
         background-color: #f60b26;
         margin-left: 80px;
-        
+
     }
 
 }
