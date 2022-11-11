@@ -20,7 +20,7 @@ header{
     margin-top: 25px;
     box-shadow: lightgray 5px 5px 5px 5px;
     }
-    summary{
+summary{
         display: inline-flex;
         align-items: flex-end;
         margin-left: 10px;
@@ -47,4 +47,7 @@ ul{
 }
 .column-1{
     display: flex;
+}
+@media screen {
+    
 }
