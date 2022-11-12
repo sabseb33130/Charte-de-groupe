@@ -1,18 +1,16 @@
 let etudiant = ['Alexandre','Stéphane','Arnaud','Sandrine','Laure','Delphine','Johann','Pierre','Jean-Christophe','Jessie','Jean-François','Terry','Sébastien','Sukunthy','Kévin','Jean-Sébastien'];
-
-
+let etudiant1 = etudiant[Math.floor(Math.random() * etudiant.length)];
+let remplace =  document.getElementById("remplace").addEventListener("click",student1);
 function student1(){
-    let etudiant1 = etudiant[Math.floor(Math.random() * etudiant.length)];
-    console.log(etudiant1);
+    etudiant1;
+    console.log(1);
 }
 
-function student() { 
+let variation = setInterval(function student() { 
     let etudiant1 = etudiant[Math.floor(Math.random() * etudiant.length)];
-    document.getElementById("remplace").addEventListener("click",student1);
+    remplace ;
     document.getElementById("remplace").innerHTML = etudiant1;
-    console.log();
-}
-setInterval(() => {
-    stop.student
-    return;
-}, 3000);    
+    console.log(2);
+} , 3000);
+
+
