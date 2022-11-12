@@ -54,6 +54,9 @@ ul{
     display: flex;
     justify-content: center;
 }
+
+/*changement non pris en compte par skeletonpour notre site.*/
+
 @media all and (max-width: 550px){
 
     .tete {
