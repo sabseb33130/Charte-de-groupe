@@ -40,13 +40,15 @@ const etudiant = [
 
     
     function student() {
-        setInterval(() => {
-            const etudiant1 = etudiant[Math.floor(Math.random() * etudiant.length)];
-            const remplace = document.getElementById("remplace").innerHTML = "RANDOM APPRENANTS";
 
-            document.getElementById("remplace").innerHTML = etudiant1;
-        }, 3000);
+        const etudiant1 = etudiant[Math.floor(Math.random() * etudiant.length)];
+        const button  = document.getElementById("remplace");
+        const text = button.innerHTML;
+        button.innerHTML = etudiant1
         
-        remplace;
+        
+        setInterval(function() {         
+            button.innerHTML = text;
+        },3000);
+        
     }
-
