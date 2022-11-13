@@ -1,4 +1,4 @@
-let etudiant = ['Alexandre','Stéphane','Arnaud','Sandrine','Laure','Delphine','Johann','Pierre','Jean-Christophe','Jessie','Jean-François','Terry','Sébastien','Sukunthy','Kévin','Jean-Sébastien'];
+/*let etudiant = ['Alexandre','Stéphane','Arnaud','Sandrine','Laure','Delphine','Johann','Pierre','Jean-Christophe','Jessie','Jean-François','Terry','Sébastien','Sukunthy','Kévin','Jean-Sébastien'];
 let etudiant1 = etudiant[Math.floor(Math.random() * etudiant.length)];
 let remplace =  document.getElementById("remplace").addEventListener("click",student1);
 function student1(){
@@ -11,6 +11,42 @@ let variation = setInterval(function student() {
     remplace ;
     document.getElementById("remplace").innerHTML = etudiant1;
     console.log(2);
-} , 3000);
+} , 3000);*/
 
+/*1- le click. fait dans le boutton.
+2- la liste ligne 23
+3- l'aleatoire ligne 43
+4- delai de 3s.
+5- affichage du random apprenant.*/
+
+
+const etudiant = [
+    'Alexandre',
+    'Stéphane',
+    'Arnaud',
+    'Sandrine',
+    'Laure',
+    'Delphine',
+    'Johann',
+    'Pierre',
+    'Jean-Christophe',
+    'Jessie',
+    'Jean-François',
+    'Terry',
+    'Sébastien',
+    'Sukunthy',
+    'Kévin',
+    'Jean-Sébastien'];
+
+    
+    function student() {
+        setInterval(() => {
+            const etudiant1 = etudiant[Math.floor(Math.random() * etudiant.length)];
+            const remplace = document.getElementById("remplace").innerHTML = "RANDOM APPRENANTS";
+
+            document.getElementById("remplace").innerHTML = etudiant1;
+        }, 3000);
+        
+        remplace;
+    }
 
