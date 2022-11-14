@@ -44,7 +44,7 @@ details{
     margin-left: 0px;
 }
 ul{
-    list-style-image: url("/images/bullet.png");
+    list-style-image: url("../images/bullet.png");
     padding-left: 10px; ;
 }
 .column-1{

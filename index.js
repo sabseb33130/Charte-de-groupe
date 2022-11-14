@@ -1,26 +1,5 @@
-/*let etudiant = ['Alexandre','Stéphane','Arnaud','Sandrine','Laure','Delphine','Johann','Pierre','Jean-Christophe','Jessie','Jean-François','Terry','Sébastien','Sukunthy','Kévin','Jean-Sébastien'];
-let etudiant1 = etudiant[Math.floor(Math.random() * etudiant.length)];
-let remplace =  document.getElementById("remplace").addEventListener("click",student1);
-function student1(){
-    etudiant1;
-    console.log(1);
-}
-
-let variation = setInterval(function student() { 
-    let etudiant1 = etudiant[Math.floor(Math.random() * etudiant.length)];
-    remplace ;
-    document.getElementById("remplace").innerHTML = etudiant1;
-    console.log(2);
-} , 3000);*/
-
-/*1- le click. fait dans le boutton.
-2- la liste ligne 23
-3- l'aleatoire ligne 43
-4- delai de 3s.
-5- affichage du random apprenant.*/
-
-
-const etudiant = [
+/* Création du Array*/
+const ETUDIANT = [
     'Alexandre',
     'Stéphane',
     'Arnaud',
@@ -38,17 +17,21 @@ const etudiant = [
     'Kévin',
     'Jean-Sébastien'];
 
-    
-    function student() {
+    /*fonction affichage  3 secondes des prenoms*/
+    function areStudent() {
+        /*const etudiant1 permet de choisir aleatoirement le prenom*/
+        const ETUDIANT1 = ETUDIANT[Math.floor(Math.random() * ETUDIANT.length)];
 
-        const etudiant1 = etudiant[Math.floor(Math.random() * etudiant.length)];
-        const button  = document.getElementById("remplace");
-        const text = button.innerHTML;
-        button.innerHTML = etudiant1
+        /*const button permet de lier le lieux ou doit apparaitre les modifications*/
+        const BUTTON = document.getElementById("remplace");
+
+        /* const text permet le retour du texte d origine dans le boutton*/
+        const TEXT = BUTTON.innerHTML;
+        BUTTON.innerHTML = ETUDIANT1
         
-        
+        /*setInterval nous permez de renvoyer la const text dans le boutton*/
         setInterval(function() {         
-            button.innerHTML = text;
+            BUTTON.innerHTML = TEXT;
         },3000);
         
     }
